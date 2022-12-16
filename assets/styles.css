@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(to right, #868f96 0%, #596164 200%);
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.navitem2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.navitem2 li{
+    cursor: pointer;
+    color: white;
+    margin-right: 0.3rem;
+    font-family: 'Lobster', cursive;
+}
+.navitem3{
+    display: none;
+}
+.navitem1{
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1rem;
+    list-style: none;
+}
+.navitem1 li{
+    cursor: pointer;
+    color: white;
+    margin-bottom: 0.3rem;
+    font-family: 'Lobster', cursive;
+}
+.cross{
+    display: none;
+    font-size: 28px;
+        align-self: center;
+}
+.intro-section{
+    background-color: rgb(20, 20, 114);
+    width: 100%;
+    height: 60vh;
+}
+.intro-section h2{
+    margin-top: 50px;
+   width: 550px;
+   font-family: 'Lobster', cursive;
+   font-weight: 400;
+   color: whitesmoke;
+   font-size: 3rem;
+   text-align: center;
+}
+.intro-section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionSobreMi{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 30px;
+}
+.sectionSobreMi img{
+    border-radius: 50%;
+}
+.sectionSobreMi div p{
+    width: 550px;
+    font-size: 1.5rem;
+    font-family: 'Rubik', cursive;
+    margin-top: 0.5rem;
+}
+.sectionSobreMi div h3{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+.skills{
+    margin-top: 50px;
+   
+}
+.skills h3{
+   text-align: center;
+   font-size: 35px;
+   font-family: 'Lobster', cursive;
+}
+.skills-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 2rem;
+    
+}
+.skills-items :nth-child(1){
+    color: orange;
+    font-size: 90px;
+    margin-right: 20px;
+    
+}
+
+.skills-items :nth-child(2){
+    color: blue;
+    font-size: 90px;
+    margin-right: 20px;
+}
+.skills-items :nth-child(3){
+    color: rgb(212, 212, 72);
+    font-size: 90px;
+    margin-right: 20px;
+}
+.skills-items :nth-child(4){
+    color: blueviolet;
+    font-size: 90px;
+    margin-right: 20px;
+}
+.skills-items :nth-child(5){
+    color: rgb(36, 113, 237);
+    font-size: 90px;
+    margin-right: 20px;
+}
+.skills-items :nth-child(6){
+    color: orange;
+    font-size: 90px;
+    margin-right: 20px;
+}
+.skills-items :nth-child(7){
+    color: black;
+    font-size: 90px;
+    margin-right: 20px;
+}
+
+.skills-items :nth-child(8){
+    color: red;
+    font-size: 90px;
+    margin-right: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   padding: 2rem;
+   gap: 50px;
+}
+
+
+.managment h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+
+.item i{
+    font-size: 90px;
+    color: blue;
+}
+.item p{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+   text-align: center;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding: 2rem;
+}
+.projects h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+.tipApp{
+    width: 30%;
+    height: 50%;
+    background-color: #596164;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.tipApp:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.tipApp h2{
+    color: white;
+}
+.tipApp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tipApp div button{
+     padding: 7px 14px;
+     background-color: black;
+     color: white;
+     margin-top: 10px;
+     margin-left: 10px;
+     border-radius: 12px;
+}
+
+.tipApp div button:hover{
+    background-color: #868f96;
+}
+
+.tipApp2{
+    width: 30%;
+    height: 50%;
+    background-color: #596164;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.tipApp2:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.tipApp2 h2{
+    color: white;
+}
+.tipApp2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.tipApp2 div button{
+     padding: 7px 14px;
+     background-color: black;
+     color: white;
+     margin-top: 20px;
+     margin-left: 10px;
+     border-radius: 12px;
+}
+.tipApp2 div button:hover{
+    background-color: #868f96;
+}
+.contact h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact-items{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    padding: 2rem;
+}
+.contact-items :nth-child(1){
+    font-size: 90px;
+}
+.contact-items :nth-child(1) p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.contact-items :nth-child(2){
+    font-size: 90px;
+    color: rgb(45, 45, 163);
+}
+
+.contact-items :nth-child(2) p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.contact-items :nth-child(3){
+    font-size: 90px;
+    color: red
+}
+
+.contact-items :nth-child(3) p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    background-image:linear-gradient(to right, #868f96 0%, #596164 200%);
+    padding: 2rem;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and(min-width: 1024px) {
+     .navitem3{
+        display: none;
+     }
+}
+
+@media screen and (min-width: 360px) and (max-width: 390px){
+    header{
+        width: 100%;
+    }
+    .navbar {
+        padding: 1.5rem;
+    }
+    .navitem2{
+        display: none;
+    }
+    .navitem3{
+        display: block;
+    }
+    .navitem3 i{
+        font-size: 28px;
+        align-self: center;
+    }
+    
+    .sectionSobreMi{
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       padding: 0.5rem;
+       margin:  0 auto;
+    }
+    .sectionSobreMi img{
+        width: 80%;
+    }
+    .sectionSobreMi div p{
+        width: 350px;
+        font-size: 1.0rem;
+        font-family: 'Rubik', cursive;
+        margin-top: 0.5rem;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .sectionSobreMi div h3{
+        font-size: 2.4rem;
+        font-family: 'Lobster', cursive;
+        margin-bottom: 10px;
+       text-align: center;
+    }
+  .skills{
+    margin-top: 20px;
+  }
+    .skills-items{
+      margin-left: 50px;
+      gap: 10px;
+      padding: 0.5rem;
+       
+    }
+    .skills-items :nth-child(1){
+        color: orange;
+        font-size: 70px;
+       
+        margin-bottom: 10px;
+        
+    }
+    
+    .skills-items :nth-child(2){
+        color: blue;
+        font-size: 70px;
+       
+        margin-bottom: 10px;
+    }
+    .skills-items :nth-child(3){
+        color: rgb(212, 212, 72);
+        font-size: 70px;
+      
+        margin-bottom: 10px;
+    }
+    .skills-items :nth-child(4){
+        color: blueviolet;
+        font-size: 70px;
+    
+        margin-bottom: 10px;
+    }
+    .skills-items :nth-child(5){
+        color: rgb(36, 113, 237);
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    .skills-items :nth-child(6){
+        color: orange;
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    .skills-items :nth-child(7){
+        color: black;
+        font-size: 70px;
+
+        margin-bottom: 10px;
+    }
+    
+    .skills-items :nth-child(8){
+        color: red;
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    .skills-items :nth-child(9){
+        width: 40%;
+    }
+    .skills-items :nth-child(10){
+        width: 20%;
+    }
+    .projects{
+       display: flex;
+       justify-content: center;
+       gap: 15px;
+    }
+    .tipApp{
+        width: 70%;
+        height: fit-content;
+        background-color: #596164;
+        padding: 0.5rem;
+    }
+    .tipApp img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .tipApp div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .tipApp div button{
+        width: 100px;
+        padding: auto;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .tipApp2{
+        width: 70%;
+        height: fit-content;
+        background-color: #596164;
+        padding: 0.5rem;
+    }
+    .tipApp2 img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .tipApp2 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .tipApp2 div button{
+        width: 100px;
+        padding: auto;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+ 
+    .contact-items :nth-child(1){
+        font-size: 70px;
+    }
+    .contact-items :nth-child(2){
+        font-size: 70px;
+    }
+    .contact-items :nth-child(3){
+        text-align: center;
+        font-size: 70px;
+    }
+    .intro-section{
+        width: 100%;
+        height: 30vh;
+    }
+    .intro-section h2{
+        margin-top: 40px;
+        width: 350px;
+        font-family: 'Lobster', cursive;
+        font-weight: 400;
+        color: whitesmoke;
+        font-size: 1.8rem;
+       text-align: center;
+    }
+    .item i{
+        font-size: 70px;
+        color: blue;
+    }
+    .tipApp h2{
+        color: white;
+        font-size: 18px;
+    }
+    footer h2{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 412px ) and (max-width: 540px) {
+    .navbar {
+        padding: 1.5rem;
+    }
+    .navitem2{
+        display: none;
+    }
+    .navitem3{
+        display: block;
+    }
+    .navitem3 i{
+        font-size: 28px;
+        align-self: center;
+    }
+    .intro-section{
+        width: 100%;
+        height: 25vh;
+    }
+    .intro-section h2{
+        margin-top: 50px;
+        width: 350px;
+        font-family: 'Lobster', cursive;
+        font-weight: 400;
+        color: whitesmoke;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .sectionSobreMi{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        margin:  0 auto;
+     }
+     .sectionSobreMi img{
+         width: 80%;
+     }
+     .sectionSobreMi div p{
+         width: 350px;
+         font-size: 1.0rem;
+         font-family: 'Rubik', cursive;
+         margin-top: 0.5rem;
+         text-align: center;
+         margin-left: 20px;
+     }
+     .sectionSobreMi div h3{
+         font-size: 2.4rem;
+         font-family: 'Lobster', cursive;
+         margin-bottom: 10px;
+        text-align: center;
+     }
+     .skills{
+        margin-top: 20px;
+      }
+        .skills-items{
+          margin-left: 50px;
+          gap: 10px;
+          padding: 0.5rem;
+           
+        }
+        .skills-items :nth-child(1){
+            color: orange;
+            font-size: 70px;
+           
+            margin-bottom: 10px;
+            
+        }
+        
+        .skills-items :nth-child(2){
+            color: blue;
+            font-size: 70px;
+           
+            margin-bottom: 10px;
+        }
+        .skills-items :nth-child(3){
+            color: rgb(212, 212, 72);
+            font-size: 70px;
+          
+            margin-bottom: 10px;
+        }
+        .skills-items :nth-child(4){
+            color: blueviolet;
+            font-size: 70px;
+        
+            margin-bottom: 10px;
+        }
+        .skills-items :nth-child(5){
+            color: rgb(36, 113, 237);
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+        .skills-items :nth-child(6){
+            color: orange;
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+        .skills-items :nth-child(7){
+            color: black;
+            font-size: 70px;
+    
+            margin-bottom: 10px;
+        }
+        
+        .skills-items :nth-child(8){
+            color: red;
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+        .skills-items :nth-child(9){
+            width: 40%;
+        }
+        .skills-items :nth-child(10){
+            width: 20%;
+        }
+        .projects{
+           display: flex;
+           justify-content: center;
+           gap: 15px;
+        }
+        .tipApp{
+            width: 70%;
+            height: fit-content;
+            background-color: #596164;
+            padding: 0.5rem;
+        }
+        .tipApp img{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .tipApp div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .tipApp div button{
+            width: 100px;
+            padding: auto;
+            font-size: 10px;
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 0px;
+        }
+
+        .tipApp2{
+            width: 70%;
+            height: fit-content;
+            background-color: #596164;
+            padding: 0.5rem;
+        }
+        .tipApp2 img{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .tipApp2 div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .tipApp2 div button{
+            width: 100px;
+            padding: auto;
+            font-size: 10px;
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 0px;
+        }
+}
