@@ -35,8 +35,11 @@ header{
 .navitem2 li{
     cursor: pointer;
     color: white;
-    margin-right: 0.3rem;
+    margin-right: 0.5rem;
     font-family: 'Lobster', cursive;
+}
+.navitem2 li:hover{
+    text-decoration: underline;
 }
 .navitem3{
     display: none;
